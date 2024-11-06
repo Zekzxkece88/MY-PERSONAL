@@ -11,13 +11,13 @@ body {
 
 h2,
 h3 {
-  color: #00a2c6;
+  color: #d32f2f; /* Merah */
 }
 
 footer {
   padding: 20px;
   color: white;
-  background-color: #00a2c6;
+  background-color: #d32f2f; /* Merah */
 
   text-align: center;
   font-weight: bold;
@@ -51,6 +51,7 @@ nav a:hover {
 .profile img {
   max-width: 200px;
 }
+
 .gambar-penyesuaian {
     width: 100%;  
     height: auto; 
@@ -70,7 +71,7 @@ nav a:hover {
 .jumbotron {
   font-size: 20px;
   padding: 60px;
-  background-color: #00c8eb;
+  background-color: #f44336; /* Merah */
   text-align: center;
   color: white;
 }
@@ -82,7 +83,7 @@ nav li {
 }
 
 nav {
-  background-color: #00a2c6;
+  background-color: #d32f2f; /* Merah */
   padding: 5px;
 
   position: sticky;
