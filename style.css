@@ -51,6 +51,14 @@ nav a:hover {
 .profile img {
   max-width: 200px;
 }
+.gambar-penyesuaian {
+    width: 100%; /* Menyesuaikan lebar gambar dengan lebar kontainer */
+    height: auto; /* Menjaga rasio aspek gambar */
+    object-fit: cover; /* Gambar akan mengisi area tanpa merubah proporsi */
+    border-radius: 10px; /* Menambahkan sudut melengkung pada gambar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Memberikan efek bayangan pada gambar */
+}
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
